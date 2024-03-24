@@ -1,3 +1,5 @@
+import crypto from 'node:crypto';
+
 export const behemothConfig = {
 	logger: {
 		logLevel: 'LOG',
