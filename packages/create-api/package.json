@@ -1,6 +1,6 @@
 {
   "name": "@behemothjs/create-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "npm init @behemothjs/api",
   "author": "Madaka Heri <madakaheri@icloud.com>",
   "license": "MIT",
