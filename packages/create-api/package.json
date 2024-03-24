@@ -1,0 +1,29 @@
+{
+  "name": "@behemothjs/create-api",
+  "version": "0.0.0",
+  "description": "npm init @behemothjs/api",
+  "author": "Madaka Heri <madakaheri@icloud.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/behemothjs/create.git"
+  },
+  "keywords": [
+    "behemothjs",
+    "behemoth",
+    "init",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/behemothjs/create/issues"
+  },
+  "homepage": "https://github.com/behemothjs/create#readme",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "dependencies": {
+    "execa": "^8.0.1"
+  }
+}

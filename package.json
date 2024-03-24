@@ -1,0 +1,41 @@
+{
+  "name": "@behemothjs/create",
+  "version": "0.0.0",
+  "description": "Project Initializers",
+  "author": "Madaka Heri <madakaheri@icloud.com>",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "packages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/behemothjs/create.git"
+  },
+  "keywords": [
+    "behemothjs",
+    "behemoth",
+    "init",
+    "web",
+    "api",
+    "package"
+  ],
+  "bugs": {
+    "url": "https://github.com/behemothjs/create/issues"
+  },
+  "homepage": "https://github.com/behemothjs/create#readme",
+  "scripts": {
+    "test": "xo && ava",
+    "add": "npm init -w packages/${npm_config_name}"
+  },
+  "devDependencies": {
+    "ava": "^6.1.2",
+    "xo": "^0.58.0"
+  },
+  "xo": {
+    "rules": {
+      "capitalized-comments": "off"
+    }
+  }
+}
